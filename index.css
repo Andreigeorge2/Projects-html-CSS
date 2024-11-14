@@ -1,0 +1,70 @@
+/* Stilizare generală */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/*Header */
+header{
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+header h1{
+margin: 0;
+}
+
+nav ul{
+list-style: none;  
+padding: 0;
+}
+
+nav ul li{
+display: inline;    
+margin-right: 10px;
+}
+nav ul li a:hover{
+color: #fff;
+text-decoration: underline;    
+}
+
+/*sectiunea "Despre mine */
+#despre{
+padding: 20px;
+background-color:#e3f2fd;   
+}
+
+/*sectiunea Proiecte */
+  #proiecte{
+  padding: 20px;  
+  }
+
+  .proiect{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid#ddd;
+  }
+
+
+  /*Sectiunea "Contact */
+  #contact{
+  padding: 20px;  
+  background-color: #e3f2fd ;
+  }
+
+  /*Footer */
+  footer{
+  background-color: #333;  
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  }
+  
+  
