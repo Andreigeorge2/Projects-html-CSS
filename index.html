@@ -1,49 +1,79 @@
 <!DOCTYPE html>
-<html lang="ro">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portofoliul Meu</title>
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of our club - Events, music, and fun!">
+    <meta name="keywords" content="club, events, party, music, fun">
+    <meta name="author" content="Our Club">
+    <title>Our Club - Guaranteed Fun!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <h1>Andrei </h1>
-        <nav>
-            <ul>
-                <li><a href="#despre">Despre Mine</a></li>
-                <li><a href="#proiecte">Proiecte</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="despre">
-        <h2>Despre Mine</h2>
-        <p>Salut! Sunt pasionat de dezvoltare web și vreau să învăț mai multe despre HTML și CSS.</p>
-    </section>
 
-    <section id="proiecte">
-        <h2>Proiectele Mele</h2>
-        <div class="proiect">
-            <h3>Proiect 1</h3>
-            <p>O scurtă descriere a proiectului meu.</p>
+    <!-- Header -->
+    <header class="header">
+        <h1>Our Club</h1>
+        <p>Non-stop parties, quality music!</p>
+          <img src="DALL·E 2025-02-04 20.38.46 - A visually appealing digital illustration of the text 'Welcome to Our Club' in bold, stylish typography. The background is vibrant with a modern club .webp"
+
+
+          <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main" id="events">
+        <h2>Upcoming Events</h2>
+        <div class="events">
+            <div class="event">
+                <img src="events.webp" alt="Event 1">   
+                <p>Friday Night Party</p>
+            </div>
+            <div class="event">
+                <img src="live-concert-388160_1280.jpg" alt="live-concert-388160_1280
+                <p>Live DJ Party</p>
+            </div>
+            <div class="event">
+                <img src="music-2805506_1280.jpg" alt="music-2805506_1280">
+                <p>Unforgettable Night</p>
+            </div>
         </div>
-        <div class="proiect">
-            <h3>Proiect 2</h3>
-            <p>O scurtă descriere a altui proiect.</p>
+    </div>
 
+    <!-- Gallery -->
+    <div class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="live-music-2219036_640.jpg" alt="Club Image 1">
+            <img src="headphones-6123966_1280.jpg" alt="Club Image 2">
+            
         </div>
-    </section>
+    </div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Poti luat legatura cu mine</p>
-    </section>
+    <!-- Contact Form -->
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="POST">
+            <input type="text" placeholder="Name" name="name" required><br>
+            <input type="email" placeholder="Email" name="email" required><br>
+            <textarea placeholder="Your message" name="message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Andrei</p>
+    
+    
+    
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Our Club. All rights reserved.</p>
     </footer>
-</body>
 
+</body>
 </html>
